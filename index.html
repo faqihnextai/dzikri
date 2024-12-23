@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penjualan Katsu</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('images/ayam1.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+        }
+
+        header {
+            background-color: rgba(255, 204, 0, 0.8); /* Transparan */
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #ff9900;
+            color: white;
+        }
+
+        section {
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9); /* Transparan */
+            margin: 20px auto;
+            width: 90%;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .menu-item img {
+            width: 100px;
+            height: auto;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(255, 204, 0, 0.8);
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Katsu Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#location">Lokasi</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Temukan Katsu Favorit Anda!</h2>
+        <p>Kami menyajikan berbagai jenis katsu yang lezat dan berkualitas.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Menu Katsu</h2>
+        <div class="menu-item">
+            <img src="ayam.jpg" alt="Katsu Ayam">
+            <div>
+                <h3>Katsu Ayam</h3>
+                <p>Ayam crispy yang disajikan dengan saus spesial.</p>
+                <span class="price">Rp 50.000</span>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="unnamed.jpg" alt="Katsu Daging Sapi">
+            <div>
+                <h3>Katsu Daging Sapi</h3>
+                <p>Daging sapi empuk yang digoreng hingga keemasan.</p>
+                <span class="price">Rp 70.000</span>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="katsu.jpeg" alt="Katsu Sayuran">
+            <div>
+                <h3>Katsu Sayuran</h3>
+                <p>Katsu vegetarian yang sehat dan lezat.</p>
+                <span class="price">Rp 40.000</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="location">
+        <h2>Lokasi Kami</h2>
+        <p>Kami berada di lokasi strategis untuk melayani Anda:</p>
+        <p><strong>Alamat:</strong> Jl. Katsu No. 123, Jakarta, Indonesia</p>
+        <p><strong>Jam Buka:</strong> Setiap hari, 10:00 - 22:00</p>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.123456789012!2d106.12345678901234!3d-6.123456789012345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e1234567890:0x1234567890abcdef!2sKatsu%20Shop!5e0!3m2!1sen!2sid!4v1234567890123" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy"></iframe>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak Kami</h2>
+        <p>Untuk pemesanan, silakan hubungi kami di:</p>
+        <p>Email: info@katsushop.com</p>
+        <p>Telepon: 083815763775</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Katsu Shop. Semua hak dilindungi.</p>
+    </footer>
+</body>
+</html>
